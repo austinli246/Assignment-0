@@ -1,5 +1,5 @@
 function greetFriend(name) {
-  // Insert code here;
+  cout << name; 
 }
 
 // Do not edit this line;
