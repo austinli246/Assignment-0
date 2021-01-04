@@ -1,12 +1,8 @@
-function setUnionOfAnyAmountOfSets(...args) {
-  let union = new Set(); 
-
-  for (let i =0; i <args.length; i++){
-    args[i].forEach(union.add,union);
-  }
-
-  return union;
+function productOfAnyAmountOfNumbers(...args) {
+  let product=1 ; 
+  for (let arg of args) product= product *arg;
+  return product;
 }
 
 // Do not edit this line;
-module.exports = setUnionOfAnyAmountOfSets;
+module.exports = productOfAnyAmountOfNumbers;
