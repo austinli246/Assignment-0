@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFC574F1D171317EDBC7771 /* Pods_Subscription_Tracker_Subscription_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4C568D68090E49BBE46275 /* Pods_Subscription_Tracker_Subscription_TrackerUITests.framework */; };
+		8F58394186E0C2DEF5137D64 /* Pods_Subscription_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDC481616D4ABE373962B0D /* Pods_Subscription_Tracker.framework */; };
+		A9A0470ED8BE15B493B9F09A /* Pods_Subscription_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F18C69FC4677D7D06D82B57 /* Pods_Subscription_TrackerTests.framework */; };
+		C025081C2629D0EC000EA036 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025081B2629D0EC000EA036 /* SettingsViewController.swift */; };
+		C036E40B262708B60093034D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E40A262708B60093034D /* AppDelegate.swift */; };
+		C036E40D262708B60093034D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E40C262708B60093034D /* SceneDelegate.swift */; };
+		C036E412262708B60093034D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C036E410262708B60093034D /* Main.storyboard */; };
+		C036E414262708B80093034D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C036E413262708B80093034D /* Assets.xcassets */; };
+		C036E417262708B80093034D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C036E415262708B80093034D /* LaunchScreen.storyboard */; };
+		C036E422262708B80093034D /* Subscription_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E421262708B80093034D /* Subscription_TrackerTests.swift */; };
+		C036E42D262708B80093034D /* Subscription_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E42C262708B80093034D /* Subscription_TrackerUITests.swift */; };
+		C036E43E262719F50093034D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E43D262719F50093034D /* LoginViewController.swift */; };
+		C036E44626271A390093034D /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E44526271A390093034D /* StreamViewController.swift */; };
+		C036E44B26271DC20093034D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E44A26271DC20093034D /* SignUpViewController.swift */; };
+		C036E450262729FD0093034D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E44F262729FD0093034D /* ProfileViewController.swift */; };
+		C036E45526273F120093034D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C036E45426273F120093034D /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C036E41E262708B80093034D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C036E3FF262708B60093034D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C036E406262708B60093034D;
+			remoteInfo = "Subscription Tracker";
+		};
+		C036E429262708B80093034D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C036E3FF262708B60093034D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C036E406262708B60093034D;
+			remoteInfo = "Subscription Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED1075070CFFD887C2B9A18 /* Pods-Subscription Tracker-Subscription TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription Tracker-Subscription TrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-Subscription Tracker-Subscription TrackerUITests/Pods-Subscription Tracker-Subscription TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FDC481616D4ABE373962B0D /* Pods_Subscription_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Subscription_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0EA215331626ADB398BF49 /* Pods-Subscription TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-Subscription TrackerTests/Pods-Subscription TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F18C69FC4677D7D06D82B57 /* Pods_Subscription_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Subscription_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD26ADE1D17F29BE56E9151 /* Pods-Subscription Tracker-Subscription TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription Tracker-Subscription TrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Subscription Tracker-Subscription TrackerUITests/Pods-Subscription Tracker-Subscription TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB0EFFD465685D516F378A8 /* Pods-Subscription TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-Subscription TrackerTests/Pods-Subscription TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4C568D68090E49BBE46275 /* Pods_Subscription_Tracker_Subscription_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Subscription_Tracker_Subscription_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C025081B2629D0EC000EA036 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C036E407262708B60093034D /* Subscription Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subscription Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C036E40A262708B60093034D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C036E40C262708B60093034D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C036E411262708B60093034D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C036E413262708B80093034D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C036E416262708B80093034D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C036E418262708B80093034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C036E41D262708B80093034D /* Subscription TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subscription TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C036E421262708B80093034D /* Subscription_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription_TrackerTests.swift; sourceTree = "<group>"; };
+		C036E423262708B80093034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C036E428262708B80093034D /* Subscription TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subscription TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C036E42C262708B80093034D /* Subscription_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription_TrackerUITests.swift; sourceTree = "<group>"; };
+		C036E42E262708B80093034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C036E43D262719F50093034D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C036E44526271A390093034D /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		C036E44A26271DC20093034D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C036E44F262729FD0093034D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C036E45426273F120093034D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C3908AF5B759855D8243F6B1 /* Pods-Subscription Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Subscription Tracker/Pods-Subscription Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		C4364F95B256EFC51B3EB614 /* Pods-Subscription Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Subscription Tracker.release.xcconfig"; path = "Target Support Files/Pods-Subscription Tracker/Pods-Subscription Tracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C036E404262708B60093034D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F58394186E0C2DEF5137D64 /* Pods_Subscription_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E41A262708B80093034D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A0470ED8BE15B493B9F09A /* Pods_Subscription_TrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E425262708B80093034D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC574F1D171317EDBC7771 /* Pods_Subscription_Tracker_Subscription_TrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7794D65787F5ECB510AF828F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3908AF5B759855D8243F6B1 /* Pods-Subscription Tracker.debug.xcconfig */,
+				C4364F95B256EFC51B3EB614 /* Pods-Subscription Tracker.release.xcconfig */,
+				4FD26ADE1D17F29BE56E9151 /* Pods-Subscription Tracker-Subscription TrackerUITests.debug.xcconfig */,
+				0ED1075070CFFD887C2B9A18 /* Pods-Subscription Tracker-Subscription TrackerUITests.release.xcconfig */,
+				6FB0EFFD465685D516F378A8 /* Pods-Subscription TrackerTests.debug.xcconfig */,
+				4B0EA215331626ADB398BF49 /* Pods-Subscription TrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C036E3FE262708B60093034D = {
+			isa = PBXGroup;
+			children = (
+				C036E409262708B60093034D /* Subscription Tracker */,
+				C036E420262708B80093034D /* Subscription TrackerTests */,
+				C036E42B262708B80093034D /* Subscription TrackerUITests */,
+				C036E408262708B60093034D /* Products */,
+				7794D65787F5ECB510AF828F /* Pods */,
+				FCBDE4A27CA17F3774CF817D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C036E408262708B60093034D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C036E407262708B60093034D /* Subscription Tracker.app */,
+				C036E41D262708B80093034D /* Subscription TrackerTests.xctest */,
+				C036E428262708B80093034D /* Subscription TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C036E409262708B60093034D /* Subscription Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				C036E40A262708B60093034D /* AppDelegate.swift */,
+				C036E40C262708B60093034D /* SceneDelegate.swift */,
+				C036E410262708B60093034D /* Main.storyboard */,
+				C036E413262708B80093034D /* Assets.xcassets */,
+				C036E415262708B80093034D /* LaunchScreen.storyboard */,
+				C036E418262708B80093034D /* Info.plist */,
+				C036E43D262719F50093034D /* LoginViewController.swift */,
+				C036E44526271A390093034D /* StreamViewController.swift */,
+				C036E44A26271DC20093034D /* SignUpViewController.swift */,
+				C036E44F262729FD0093034D /* ProfileViewController.swift */,
+				C036E45426273F120093034D /* DetailsViewController.swift */,
+				C025081B2629D0EC000EA036 /* SettingsViewController.swift */,
+			);
+			path = "Subscription Tracker";
+			sourceTree = "<group>";
+		};
+		C036E420262708B80093034D /* Subscription TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C036E421262708B80093034D /* Subscription_TrackerTests.swift */,
+				C036E423262708B80093034D /* Info.plist */,
+			);
+			path = "Subscription TrackerTests";
+			sourceTree = "<group>";
+		};
+		C036E42B262708B80093034D /* Subscription TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C036E42C262708B80093034D /* Subscription_TrackerUITests.swift */,
+				C036E42E262708B80093034D /* Info.plist */,
+			);
+			path = "Subscription TrackerUITests";
+			sourceTree = "<group>";
+		};
+		FCBDE4A27CA17F3774CF817D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC481616D4ABE373962B0D /* Pods_Subscription_Tracker.framework */,
+				9A4C568D68090E49BBE46275 /* Pods_Subscription_Tracker_Subscription_TrackerUITests.framework */,
+				4F18C69FC4677D7D06D82B57 /* Pods_Subscription_TrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C036E406262708B60093034D /* Subscription Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C036E431262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription Tracker" */;
+			buildPhases = (
+				8C38D4E7E21C20141127A0AF /* [CP] Check Pods Manifest.lock */,
+				C036E403262708B60093034D /* Sources */,
+				C036E404262708B60093034D /* Frameworks */,
+				C036E405262708B60093034D /* Resources */,
+				E2C2ED37320B4C0BE1FA8857 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subscription Tracker";
+			productName = "Subscription Tracker";
+			productReference = C036E407262708B60093034D /* Subscription Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C036E41C262708B80093034D /* Subscription TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C036E434262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription TrackerTests" */;
+			buildPhases = (
+				2C4FB4CA09344C296FAA8EF8 /* [CP] Check Pods Manifest.lock */,
+				C036E419262708B80093034D /* Sources */,
+				C036E41A262708B80093034D /* Frameworks */,
+				C036E41B262708B80093034D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C036E41F262708B80093034D /* PBXTargetDependency */,
+			);
+			name = "Subscription TrackerTests";
+			productName = "Subscription TrackerTests";
+			productReference = C036E41D262708B80093034D /* Subscription TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C036E427262708B80093034D /* Subscription TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C036E437262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription TrackerUITests" */;
+			buildPhases = (
+				226742D0841B43212215181C /* [CP] Check Pods Manifest.lock */,
+				C036E424262708B80093034D /* Sources */,
+				C036E425262708B80093034D /* Frameworks */,
+				C036E426262708B80093034D /* Resources */,
+				2DF3C75D3871F38D18E9C476 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C036E42A262708B80093034D /* PBXTargetDependency */,
+			);
+			name = "Subscription TrackerUITests";
+			productName = "Subscription TrackerUITests";
+			productReference = C036E428262708B80093034D /* Subscription TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C036E3FF262708B60093034D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C036E406262708B60093034D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C036E41C262708B80093034D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C036E406262708B60093034D;
+					};
+					C036E427262708B80093034D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C036E406262708B60093034D;
+					};
+				};
+			};
+			buildConfigurationList = C036E402262708B60093034D /* Build configuration list for PBXProject "Subscription Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C036E3FE262708B60093034D;
+			productRefGroup = C036E408262708B60093034D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C036E406262708B60093034D /* Subscription Tracker */,
+				C036E41C262708B80093034D /* Subscription TrackerTests */,
+				C036E427262708B80093034D /* Subscription TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C036E405262708B60093034D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C036E417262708B80093034D /* LaunchScreen.storyboard in Resources */,
+				C036E414262708B80093034D /* Assets.xcassets in Resources */,
+				C036E412262708B60093034D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E41B262708B80093034D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E426262708B80093034D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226742D0841B43212215181C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Subscription Tracker-Subscription TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C4FB4CA09344C296FAA8EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Subscription TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF3C75D3871F38D18E9C476 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker-Subscription TrackerUITests/Pods-Subscription Tracker-Subscription TrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker-Subscription TrackerUITests/Pods-Subscription Tracker-Subscription TrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker-Subscription TrackerUITests/Pods-Subscription Tracker-Subscription TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C38D4E7E21C20141127A0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Subscription Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C2ED37320B4C0BE1FA8857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker/Pods-Subscription Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker/Pods-Subscription Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Subscription Tracker/Pods-Subscription Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C036E403262708B60093034D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C036E450262729FD0093034D /* ProfileViewController.swift in Sources */,
+				C036E44626271A390093034D /* StreamViewController.swift in Sources */,
+				C036E43E262719F50093034D /* LoginViewController.swift in Sources */,
+				C036E40B262708B60093034D /* AppDelegate.swift in Sources */,
+				C036E45526273F120093034D /* DetailsViewController.swift in Sources */,
+				C036E40D262708B60093034D /* SceneDelegate.swift in Sources */,
+				C036E44B26271DC20093034D /* SignUpViewController.swift in Sources */,
+				C025081C2629D0EC000EA036 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E419262708B80093034D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C036E422262708B80093034D /* Subscription_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036E424262708B80093034D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C036E42D262708B80093034D /* Subscription_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C036E41F262708B80093034D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C036E406262708B60093034D /* Subscription Tracker */;
+			targetProxy = C036E41E262708B80093034D /* PBXContainerItemProxy */;
+		};
+		C036E42A262708B80093034D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C036E406262708B60093034D /* Subscription Tracker */;
+			targetProxy = C036E429262708B80093034D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C036E410262708B60093034D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C036E411262708B60093034D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C036E415262708B80093034D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C036E416262708B80093034D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C036E42F262708B80093034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C036E430262708B80093034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C036E432262708B80093034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3908AF5B759855D8243F6B1 /* Pods-Subscription Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7K2LBT437;
+				INFOPLIST_FILE = "Subscription Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C036E433262708B80093034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4364F95B256EFC51B3EB614 /* Pods-Subscription Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7K2LBT437;
+				INFOPLIST_FILE = "Subscription Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C036E435262708B80093034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB0EFFD465685D516F378A8 /* Pods-Subscription TrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subscription TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subscription Tracker.app/Subscription Tracker";
+			};
+			name = Debug;
+		};
+		C036E436262708B80093034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0EA215331626ADB398BF49 /* Pods-Subscription TrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subscription TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subscription Tracker.app/Subscription Tracker";
+			};
+			name = Release;
+		};
+		C036E438262708B80093034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD26ADE1D17F29BE56E9151 /* Pods-Subscription Tracker-Subscription TrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subscription TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subscription Tracker";
+			};
+			name = Debug;
+		};
+		C036E439262708B80093034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED1075070CFFD887C2B9A18 /* Pods-Subscription Tracker-Subscription TrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Subscription TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Subscription-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subscription Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C036E402262708B60093034D /* Build configuration list for PBXProject "Subscription Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C036E42F262708B80093034D /* Debug */,
+				C036E430262708B80093034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C036E431262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C036E432262708B80093034D /* Debug */,
+				C036E433262708B80093034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C036E434262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C036E435262708B80093034D /* Debug */,
+				C036E436262708B80093034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C036E437262708B80093034D /* Build configuration list for PBXNativeTarget "Subscription TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C036E438262708B80093034D /* Debug */,
+				C036E439262708B80093034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C036E3FF262708B60093034D /* Project object */;
+}
